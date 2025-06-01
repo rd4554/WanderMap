@@ -7,31 +7,12 @@ Built with MongoDB, Express, React, and Node.js, this app helps users track plac
 
 Deployed live on **[Vercel](https://travel-log-mern.vercel.app/)** .
 
-## Some things to consider
+Perks:
+-Rich popups with travel details including user notes, rating, date, and photo.
 
-server .env example
+-Map markers are interactive and reveal user-logged destinations.
 
-```sh
-NODE_ENV='your value here'
-ATLAS_URI='your value here'
-REACT_APP_API_KEY='your value here'
-```
+-Add new travel entries with a double-click/tap on the map.
 
-client .env example
+-Authenticated users can create and manage travel logs.
 
-```sh
-REACT_APP_MAPBOX_TOKEN='your value here'
-REACT_APP_MAP_STYLE='your vallue here'
-```
-
-Features:
-
-- Displays a popup with the title, description, user comment, location image, rating and date visited by the user.
-- Clickable markers shows the users' destination details logged.
-- Double click/tap the map to add a map destination entry.
-- Uses Authorization to add a map destination entry.
-
-## Screenshots
-
-![travelogHome](https://github.com/fabdul88/TraveLog/assets/60126985/d4fb8dbc-9d7d-4401-aff5-18aa99d9f4cd)
-![travelogMap](https://github.com/fabdul88/TraveLog/assets/60126985/ca662f27-1be1-49c7-b12a-0329b2986ae5)
